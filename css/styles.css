@@ -7,6 +7,7 @@
 
 body {
   font-family: "Roboto", sans-serif;
+  font-size: 14px;
   background-color: var(--primary-white-color);
 }
 .link {
@@ -18,9 +19,7 @@ body {
 }
 
 /* ---------------HEADER-------------  */
-.header {
-  background-color: #ffffff;
-}
+
 .header-logo {
   font-family: "Raleway", sans-serif;
   font-style: normal;
@@ -37,7 +36,6 @@ body {
 .header-link {
   font-style: normal;
   font-weight: 500;
-  font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.02em;
   color: var(--primary-text-color);
@@ -50,23 +48,18 @@ body {
   color: var(--accent-text-color);
 }
 
-.header-email,
-.header-tel {
+.header-nav {
   font-style: normal;
   font-weight: 500;
-  font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.02em;
   color: var(--secondary-text-color);
 }
-.header-email:hover,
-.header-email:focus {
+.header-nav:hover,
+.header-nav:focus{
   color: var(--accent-text-color);
 }
-.header-tel:hover,
-.header-tel:focus {
-  color: var(--accent-text-color);
-}
+
 /* ---------------HERO-------------  */
 .hero {
   background-color: #2f303a;
@@ -81,18 +74,16 @@ body {
   color: var(--primary-white-color);
 }
 .hero-btn {
+  font-family:inherit;
   font-weight: 700;
   font-size: 16px;
   line-height: 1.87;
-  display: flex;
-  align-items: center;
-  text-align: center;
   letter-spacing: 0.06em;
   color: var(--primary-white-color);
 }
 .hero-btn.primary:hover,
 .hero-btn.primary:focus{
-  background-color:var(--accent-text-color);
+  background-color:#188CE8;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
   border-radius: 4px;
 }
@@ -115,6 +106,7 @@ body {
     margin: -1px;
 }
 .portfolio-btn {
+  font-family: inherit;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.62;
@@ -172,7 +164,6 @@ body {
 }
 .advantage-title {
   font-weight: 700;
-  font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.03em;
   text-transform: uppercase;
@@ -180,7 +171,6 @@ body {
 }
 .advantage-text {
   font-weight: 400;
-  font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
   color: var(--secondary-text-color);
@@ -242,7 +232,6 @@ body {
 .footer-item {
   font-style: normal;
   font-weight: 400;
-  font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
   color: #ffffff;
@@ -255,7 +244,6 @@ body {
 .footer-tel {
   font-style: normal;
   font-weight: 400;
-  font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
   color: rgba(255, 255, 255, 0.6);
